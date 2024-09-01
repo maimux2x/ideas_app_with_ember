@@ -96,6 +96,7 @@ GEM
     irb (1.14.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
+    jb (0.8.2)
     json (2.7.2)
     language_server-protocol (3.17.0.3)
     logger (1.6.0)
@@ -246,7 +247,7 @@ PLATFORMS
   arm-linux
   arm-linux-gnu
   arm-linux-musl
-  arm64-darwin
+  arm64-darwin-22
   x86-linux
   x86-linux-gnu
   x86-linux-musl
@@ -259,6 +260,7 @@ DEPENDENCIES
   bootsnap
   brakeman
   debug
+  jb
   puma (>= 5.0)
   rails (~> 7.2.1)
   rubocop-rails-omakase
