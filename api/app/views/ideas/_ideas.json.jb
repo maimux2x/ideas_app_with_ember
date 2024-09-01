@@ -1,0 +1,7 @@
+{
+  id:            idea.id,
+	created_at:    idea.created_at,
+	name:          idea.name,
+	description:   idea.description,
+	error_message: idea.error_message
+}
