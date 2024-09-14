@@ -1,7 +1,13 @@
 <h1>Ideas</h1>
-{{#each @model as |idea|}}
-  <ul>
-    <li>{{idea.name}}</li>
-    <li>{{idea.description}}</li>
-  </ul>
-{{/each}}
+<table>
+  <thead>
+    <th>name</th>
+    <th>description</th>
+  </thead>
+    {{#each @model as |idea|}}
+      <tbody>
+        <td>{{idea.name}}</td>
+        <td>{{idea.description}}</td>
+      </tbody>
+    {{/each}}
+</table>
