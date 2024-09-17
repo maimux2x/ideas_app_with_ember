@@ -1,0 +1,14 @@
+<h2>New Idea</h2>
+<form {{on "submit" this.createIdea}}>
+  <div>
+    <label for="name">Name</label>
+    <input id="name" type="text" {{on "input" this.updateName}}>
+  </div>
+
+  <div>
+    <label for="description">Description</label>
+    <textarea id="description" {{on "input" this.updateDescription}}></textarea>
+  </div>
+
+  <button type="submit" class="button">submit</button>
+</form>

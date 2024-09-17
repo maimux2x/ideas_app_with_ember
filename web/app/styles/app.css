@@ -1,1 +1,85 @@
-/* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic);
+
+/**
+ * Base Elements
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+button {
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.button {
+  margin: 10px;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #fff;
+  background: #016aba;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  opacity: 0.9;
+  display: inline-block;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+table {
+  margin: 10px;
+  border-collapse: collapse;
+  border: solid 2px;
+}
+table th, table td {
+  padding: 5px 10px;
+  border: dashed 1px;
+}
+
+label {
+    width: 104px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 8px;
+}
+
+input[type="text"],
+textarea {
+  width: 100;
+  margin: .5em;
+  padding: .5em;
+  border: solid 1px #aaa;
+  border-radius: 4px;
+  outline-color: #9dbbff;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  margin: 10px;
+  background-color: #5bb4ff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 160px;
+  height: 40px;
+  border: solid 1px #4397de;
+  border-radius: 4px;
+}
+
